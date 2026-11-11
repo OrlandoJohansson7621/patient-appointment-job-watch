@@ -1,0 +1,21 @@
+{
+  "name": "patient-appointment-job-watch",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/notification_server.ts",
+    "demo": "tsx src/check_appointment_jobs.ts",
+    "register-job": "tsx src/register_appointment_reminder.ts",
+    "test": "tsx --test test/appointment_decision.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
